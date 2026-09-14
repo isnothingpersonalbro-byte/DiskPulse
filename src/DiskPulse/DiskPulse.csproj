@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationVisualStyles>true</ApplicationVisualStyles>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <AssemblyName>DiskPulse</AssemblyName>
+    <RootNamespace>DiskPulse</RootNamespace>
+    
+    <!-- Metadata Aplikasi -->
+    <Title>DiskPulse</Title>
+    <Product>DiskPulse Storage Monitor &amp; Cleaner</Product>
+    <Description>Ultra-lightweight Windows desktop storage monitor, junk cleaner, and folder analyzer for Windows 10/11</Description>
+    <Version>1.0.0</Version>
+    <Authors>Senior System Architecture Team</Authors>
+
+    <!-- Optimasi Performa & Ukuran Binary -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <TieredCompilation>true</TieredCompilation>
+    <TieredCompilationQuickJit>true</TieredCompilationQuickJit>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <ConcurrentGarbageCollection>true</ConcurrentGarbageCollection>
+  </PropertyGroup>
+
+</Project>

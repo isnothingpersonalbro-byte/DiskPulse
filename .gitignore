@@ -1,0 +1,39 @@
+﻿## .NET build artifacts
+**/bin/
+**/obj/
+publish/
+build/publish/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+## Build executables & temporary binaries
+*.exe
+*.dll
+*.pdb
+!src/**/*.ico
+!assets/**/*
+
+## DiskPulse temp/backup binaries
+DiskPulse*.exe
+*.old.*.exe
+*.run*.exe
+
+## Visual Studio & IDE files
+.vs/
+.idea/
+.vscode/
+*.swp
+*~
+
+## OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+## Antigravity / Agent artifacts & scratch
+.system_generated/
+scratch/
