@@ -37,3 +37,7 @@ $RECYCLE.BIN/
 ## Antigravity / Agent artifacts & scratch
 .system_generated/
 scratch/
+
+## Archive files
+*.zip
+installer/
